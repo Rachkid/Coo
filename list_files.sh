@@ -1,5 +1,4 @@
 #!/bin/bash
 echo "Liste des fichiers dans le répertoire courant :"
-ls -p | grep -v / 
+ls -la
 
-# Affiche uniquement les fichiers (ignore les dossiers)
