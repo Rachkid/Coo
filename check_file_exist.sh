@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# ce code demande le nom d'un fichier existant 
 read -p "Entrez le nom du fichier : " filename 
 if [ -f "$filename" ]; then
     echo "Le fichier '$filename' existe."
